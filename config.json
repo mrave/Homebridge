@@ -1,0 +1,121 @@
+{
+    "bridge": {
+        "name": "Homebridge 1D70",
+        "username": "0E:CE:F7:F5:1D:70",
+        "port": 51488,
+        "pin": "983-13-850",
+        "advertiser": "bonjour-hap"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config"
+        },
+        {
+            "refreshToken": "eyJydCI6ImV5SmhiR2NpT2lKU1V6STFOaUlzSW1wcmRTSTZJaTl2WVhWMGFDOXBiblJsY201aGJDOXFkMnR6SWl3aWEybGtJam9pWkRjMFlqTmhNV1VpTENKMGVYQWlPaUpLVjFRaWZRLmV5SnBZWFFpT2pFM05qZ3pPVEl5TXpRc0ltbHpjeUk2SWxKcGJtZFBZWFYwYUZObGNuWnBZMlV0Y0hKdlpEcDFjeTFsWVhOMExURTZZMlZtTlRFM09Ea2lMQ0p2YVdGMElqb3hOelk0TXpjNE9UazVMQ0p5WldaeVpYTm9YMk5wWkNJNkluSnBibWRmYjJabWFXTnBZV3hmWVc1a2NtOXBaQ0lzSW5KbFpuSmxjMmhmYzJOdmNHVnpJanBiSW1Oc2FXVnVkQ0pkTENKeVpXWnlaWE5vWDNWelpYSmZhV1FpT2pnek5EZ3dNeklzSW5KdVpDSTZJblZCUmtZMWFrYzNUMWdpTENKelpYTnphVzl1WDJsa0lqb2ljbWx1WnkxelpYTnphVzl1TFdJM1ltSTFaRGczTFdOaU5qZ3ROREl5WWkwNE9EVmhMVGt6TW1NeE5XWTFZamRsTlNJc0luUjVjR1VpT2lKeVpXWnlaWE5vTFhSdmEyVnVJbjAucTdXaWJHOTdhRVhsdHlRbGROSlpzbGMtY2doVWM0ZGJwQUVGOGlMTGlCVlI5TUFJOEdHVzVQT2NYb3VhVjBhbUtQMUJxOHdWVmpUVy1meTdydU9kN3VhakV2NGZzV2hJTjVMT0p3Vkc5SjVZRnBRbzhxRHZQRGFBdnlRUGljQnM5S1B0UFRuSVdzNHVyME96dGZyY1hXVXdfdU9Yamt4ZTNQdk1FSDF5VFNiRnc5UGFKcU5nTko1c0w1VElibVpveUdRRkI5ajIyZnNxbFp6U0V5d0w0VHVkWGFtRGhkYzJPeDByQzFIaVVvV25heTFGZ09vTVIxTnJsaWpTZHl5TlVlR05tYTBkOS0yQVE5Zy1IbnZ2MmNTaDItaFZlbFVZdlpkNDJtN3NUZnNkTHphbnNMdVhveERBbkRLdG9ETDF5T2pPM3o2ZjdlQURNSURwLVE4UGZnIiwiaGlkIjoiZDA0MTdhNzEtODg1NC01NzcxLThlZTktYTNkMzc2Y2I2Yzc2IiwicG5jIjp7ImtleXMiOnsicHJpdmF0ZUtleSI6ImFDNXFQUEhKelhXYXZ6Y3VDNHZpYWVBc0FmVHBqUTJPZEZHY1dXeGd6bWMiLCJwdWJsaWNLZXkiOiJCQjZBUWt6bHdTSUNkOVdwYV9QNFIzX0I0eEVIOXZXVEthcmE2dFJ2SlU0dnZZNVZFbW5VcmRSSUZsdWhaUGdNTnV4bWNpQnlmR1VBbUs0ejBDVTZTeE0iLCJhdXRoU2VjcmV0IjoiTm42Z3A4UWZKSzBVeWNTcUFZMFNjZyJ9LCJnY20iOnsidG9rZW4iOiJmcTdocWNuU0pLWTpBUEE5MWJHSmtZYS1JbEhCN1MwM0VMNTQ3bmx5SWhjTnJlYVZEeVhJWVhmLVNPTWdiRGVRRUZvTmp2Y3p0QVQxVmxtTjF6MGZRdFg2cDFzTlpGX2swMFhnWi1aM21RdU1ncXlmTFpOdDNORHE4RGdqYUt3cktocVl4OVFpOXpCLUZVOGRGdVdjYzBFRiIsImFuZHJvaWRJZCI6IjUwNTk5NzI3Mjc4MTAzMjc4MDQiLCJzZWN1cml0eVRva2VuIjoiNjA5Njc3NDE1MjUxMDk5NTUzIiwiYXBwSWQiOiJ3cDpyZWNlaXZlci5wdXNoLmNvbSNjMjg5Yjk0ZS1iYmUwLTQ5NzMtOGNkYy05ZTY5NTFjY2QxYjgifSwiZmNtIjp7InRva2VuIjoiZTdjN3NFUThlaHVoOF9yU1NsMWJudDpBUEE5MWJHZzJRTjZTV005R2RwTTFBdzNXdW9Rc3hBSW5tVWlVSk1DT21EcWdUSU1MbEluOVlaOGdYU3VpSkowLVBpZnBuSERLTktQZ2RiNmVYRXlLNXZTOWhiRXNsSFJ3cS0tR3BaZkpmNEdqYzdNbHh5Si01SSIsImluc3RhbGxhdGlvbiI6eyJ0b2tlbiI6ImV5SmhiR2NpT2lKRlV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpoY0hCSlpDSTZJakU2T0RjMk16RXpPRFU1TXpJM09tRnVaSEp2YVdRNlpURXdaV00yWkdSaU0yTTRNV1l6T1NJc0ltVjRjQ0k2TVRjMk9EazRORFExT1N3aVptbGtJam9pWlRkak4zTkZVVGhsYUhWb09GOXlVMU5zTVdKdWRDSXNJbkJ5YjJwbFkzUk9kVzFpWlhJaU9qZzNOak14TXpnMU9UTXlOMzAuQUIyTFBWOHdSUUloQU9WNW9GeDBaVHF1N1E5bEw0dmhBM3I3N2pxZ2VoUzY1bk1FUWt6QVpOb2FBaUFFYm0wTjdCc1FpbXNJM2xMaFoxb1NlUC1IcWZPYm12TUNxSFFKWkNNTHJnIiwiY3JlYXRlZEF0IjoxNzY4Mzc5NjU5MzU0LCJleHBpcmVzSW4iOjYwNDgwMDAwMCwicmVmcmVzaFRva2VuIjoiM19BUzNxZndKWENUbmYtUFQybTV2UkROSnlkbHV3d0lIdGJfb1BYMG9iUEpCOXk0aUVhVWRNejlnSUlrbG9JdmtUWkY2UkFJMWxMWC1YbUdydjBPMlU5YU1HRXR5M3ZhZmNBeWVXT09DbVh6N3pTZ1UiLCJmaWQiOiJlN2M3c0VROGVodWg4X3JTU2wxYm50In19LCJjb25maWciOnsiYnVuZGxlSWQiOiJyZWNlaXZlci5wdXNoLmNvbSIsInByb2plY3RJZCI6InJpbmctMTc3NzAiLCJ2YXBpZEtleSI6IiJ9fX0=",
+            "alarmOnEntryDelay": false,
+            "hideLightGroups": false,
+            "hideDoorbellSwitch": false,
+            "hideCameraLight": false,
+            "hideCameraMotionSensor": false,
+            "hideCameraSirenSwitch": false,
+            "hideInHomeDoorbellSwitch": false,
+            "hideAlarmSirenSwitch": false,
+            "showPanicButtons": false,
+            "avoidSnapshotBatteryDrain": false,
+            "debug": false,
+            "disableLogs": false,
+            "platform": "Ring",
+            "_bridge": {
+                "username": "0E:D2:29:BB:D3:FE",
+                "port": 31478,
+                "name": "Ring"
+            }
+        },
+        {
+            "name": "Switcher Platform",
+            "token": "mMfOCO8KjDYoBN+8fQXiNA==",
+            "debug": false,
+            "secondsToRemove": 0,
+            "devices": [
+                {
+                    "hide": false
+                }
+            ],
+            "platform": "SwitcherPlatform",
+            "_bridge": {
+                "username": "0E:4C:A9:E6:F7:B5",
+                "port": 44159,
+                "name": "Homebridge Switcher Platform"
+            }
+        },
+        {
+            "auth": "api-key",
+            "apiKey": "pL63RafdWeFE6lUi9gptf5QSFD5S2V",
+            "allowRepeatedCommands": false,
+            "disableAirQuality": false,
+            "disableCarbonDioxide": false,
+            "disableDry": false,
+            "disableFan": false,
+            "disableHumidity": false,
+            "externalHumiditySensor": false,
+            "disableLightSwitch": false,
+            "disableHorizontalSwing": false,
+            "disableVerticalSwing": false,
+            "enableClimateReactSwitch": false,
+            "enableClimateReactAutoSetup": false,
+            "climateReactSwitchInAccessory": false,
+            "enableHistoryStorage": false,
+            "enableOccupancySensor": false,
+            "enableSyncButton": false,
+            "syncButtonInAccessory": false,
+            "ignoreHomeKitDevices": false,
+            "debug": false,
+            "platform": "SensiboAC",
+            "_bridge": {
+                "username": "0E:EC:8B:4B:28:8C",
+                "port": 36581,
+                "name": "Sensibo for Homebridge"
+            }
+        },
+        {
+            "name": "Tuya",
+            "options": {
+                "projectType": "2",
+                "accessId": "py497t8eb33ic04hcab4",
+                "accessKey": "6aa5c81eca824c8aa1d36d253ae74c2c",
+                "countryCode": 972,
+                "username": "micha.rave@gmail.com",
+                "password": "fugufuTUY01",
+                "appSchema": "smartlife",
+                "deviceOverrides": [
+                    {
+                        "id": "global",
+                        "unbridged": false,
+                        "schema": [
+                            {
+                                "hidden": false
+                            }
+                        ]
+                    }
+                ],
+                "serviceInformationOverrides": [
+                    {
+                        "index": "1"
+                    }
+                ],
+                "generateWeatherAccessory": false,
+                "weatherAPI": "Open-Meteo",
+                "debug": false
+            },
+            "_bridge": {
+                "name": "Homebridge Tuya",
+                "username": "0E:62:15:8B:AA:F5",
+                "port": 45988
+            },
+            "platform": "TuyaPlatform"
+        }
+    ]
+}
